@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/css/index.css" />
+
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row login-page">
+        <!-- page logo start -->
+        <div class="login-logo-div">
+          <img
+            src="assets/images/gpc_logo@2x.png"
+            width="150"
+            alt="login-logo"
+          />
+        </div>
+        <!-- page logo end -->
+
+        <div class="col-12 justify-content-center align-self-center">
+          <!-- tab bar start -->
+          <div class="row justify-content-center">
+            <ul class="nav nav-pills">
+              <li class="custom-nav mr-3">
+                <a class="nav-a active" data-toggle="pill" href="#list-signUp"
+                  >SignUp</a
+                >
+              </li>
+              <li class="custom-nav">
+                <a class="nav-a" data-toggle="pill" href="#list-login">Login</a>
+              </li>
+            </ul>
+          </div>
+          <!-- tab bar end -->
+
+          <!-- input fields start -->
+          <div class="row justify-content-center mt-4">
+            <div class="tab-content">
+              <div
+                class="tab-pane"
+                id="list-login"
+                role="tabpanel"
+                aria-labelledby="list-login-list"
+              >
+                <div class="input-group mt-3">
+                  <div class="input-group-prepend">
+                    <div
+                      class="input-group-text background-opacity-3"
+                      id="btnGroupAddon2"
+                    >
+                      <img
+                        src="./assets/images/ic_email@2x.png"
+                        alt="ic_email"
+                        class="input-icon"
+                      />
+                    </div>
+                  </div>
+                  <input
+                    type="text"
+                    class="login-input"
+                    placeholder="Your email"
+                    aria-label="Your email"
+                    aria-describedby="btnGroupAddon2"
+                  />
+                </div>
+                <div class="input-group mt-3">
+                  <div class="input-group-prepend">
+                    <div
+                      class="input-group-text background-opacity-3"
+                      id="btnGroupAddon2"
+                    >
+                      <img
+                        src="./assets/images/ic_password@2x.png"
+                        alt="ic_password"
+                        class="input-icon"
+                      />
+                    </div>
+                  </div>
+                  <input
+                    type="text"
+                    class="login-input"
+                    placeholder="Password"
+                    aria-label="Password"
+                    aria-describedby="btnGroupAddon2"
+                  />
+                </div>
+                <div class="mt-4">
+                  <button class="custom-button login-btn">LOGIN</button>
+                </div>
+              </div>
+              <div class="tab-pane container active" id="list-signUp">
+                <div class="input-group">
+                  <div class="input-group mt-3">
+                    <div class="input-group-prepend">
+                      <div
+                        class="input-group-text background-opacity-3"
+                        id="btnGroupAddon2"
+                      >
+                        <img
+                          src="./assets/images/ic_username@2x.png"
+                          alt="ic_user"
+                          class="input-icon"
+                        />
+                      </div>
+                    </div>
+                    <input
+                      type="text"
+                      class="login-input"
+                      placeholder="Username"
+                      aria-label="Username"
+                      aria-describedby="btnGroupAddon2"
+                    />
+                  </div>
+                </div>
+                <div class="input-group">
+                  <div class="input-group mt-3">
+                    <div class="input-group-prepend">
+                      <div
+                        class="input-group-text background-opacity-3"
+                        id="btnGroupAddon2"
+                      >
+                        <img
+                          src="./assets/images/ic_email@2x.png"
+                          alt="ic_email"
+                          class="input-icon"
+                        />
+                      </div>
+                    </div>
+                    <input
+                      type="text"
+                      class="login-input"
+                      placeholder="Your email"
+                      aria-label="Your email"
+                      aria-describedby="btnGroupAddon2"
+                    />
+                  </div>
+                </div>
+                <div class="input-group">
+                  <div class="input-group mt-3">
+                    <div class="input-group-prepend">
+                      <div
+                        class="input-group-text background-opacity-3"
+                        id="btnGroupAddon2"
+                      >
+                        <img
+                          src="./assets/images/ic_password@2x.png"
+                          alt="ic_password"
+                          class="input-icon"
+                        />
+                      </div>
+                    </div>
+                    <input
+                      type="text"
+                      class="login-input"
+                      placeholder="Password"
+                      aria-label="Password"
+                      aria-describedby="btnGroupAddon2"
+                    />
+                  </div>
+                </div>
+                <div class="mt-4">
+                  <button class="custom-button signUp-btn">SING UP</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- input fields end -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

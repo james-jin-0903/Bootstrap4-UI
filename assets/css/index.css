@@ -1,0 +1,161 @@
+/* landing page css start */
+.landing-page-header {
+  background-image: url("../images/gpc_hero_image@2x.png");
+  height: 52rem;
+  background-size: cover;
+}
+
+.who-we-are-div {
+  margin: 80px;
+}
+
+.our-apps {
+  background-color: #2f2e2e;
+  padding: 80px;
+}
+
+.app-image {
+  width: 10rem;
+  height: 10rem;
+}
+
+.blue-text {
+  color: #2fcbfc;
+}
+
+.subscribe-div {
+  margin: 88px auto 90px auto;
+}
+
+.footer {
+  background-color: #e8e8e8;
+}
+/* landing page css end */
+
+/* login page css start */
+.login-page {
+  background-image: url("../images/gpc_loginBg@2x.png");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: round;
+}
+
+.custom-button {
+  background-color: #2fcbfc;
+  width: 360px;
+  height: 49px;
+  background-color: #2fcbfc;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 0;
+  font-weight: bold;
+}
+
+.custom-button:hover {
+  opacity: 0.9;
+  outline: none;
+  border: none;
+  border-radius: 0;
+  font-weight: bold;
+}
+
+.login-link {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 2rem;
+  right: 3rem;
+}
+
+.login-link:hover {
+  text-decoration: underline;
+  opacity: 0.7;
+  color: white;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 28px;
+}
+
+p {
+  font-weight: medium;
+  font-size: 18px;
+  color: #1b1e1f;
+}
+
+.email-input {
+  width: 280px;
+  border-radius: 0;
+  height: 49px;
+  padding-left: 20px;
+}
+
+.subscribe-btn {
+  width: 160px;
+  background-color: #2f2e2e;
+  height: 49px;
+  color: white;
+  border-radius: 0;
+  font-weight: bold;
+}
+
+.login-logo-div {
+  position: absolute;
+  top: 32px;
+  left: 80px;
+}
+
+.nav-a {
+  background: none;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  opacity: 0.7;
+}
+
+.nav-a:hover {
+  background: none;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  opacity: 0.7;
+}
+
+.custom-nav .active {
+  background: none;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  opacity: 1;
+  text-decoration: underline;
+}
+
+.input-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.login-input {
+  width: 308px;
+  height: 52px;
+  padding-left: 20px;
+  border: none;
+  outline: none;
+  color: white;
+  border-radius: 0;
+  background: rgb(255 255 255 / 0.3);
+}
+
+.login-input::placeholder {
+  color: rgba(255, 255, 255, 0.829);
+}
+
+.background-opacity-3 {
+  background: rgb(255 255 255 / 0.3);
+  border: none;
+  outline: none;
+  border-radius: 0;
+}
+/* login page css end */
